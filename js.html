@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: relative;
+            left: 0;
+            top: 0;
+            /* rotate: 300deg; */
+            transition: .5s;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Javascript</h1>
+
+    <div id="box" class="box">box</div>
+    <button onclick="Change()">Click</button>
+
+
+
+
+    <script>
+
+        // + - * / ** % ++ --   ==> arithmatic operator
+
+
+        let num1 = '243'
+        let num2 = 23
+
+
+        // console.log(10 ** 3)
+
+        // console.log(4 % 2)
+
+        // num1++ // num1 = num1 + 1
+        // console.log(num1)
+
+
+
+        //assignment operators -->  = += -+ *= /=
+
+        // num1 += 10 //num1 = num1 + 10
+
+        // console.log(num1)
+
+
+        // conditoinal operator  ---> == === >= <= < >
+
+        // console.log(num1 === 243)
+
+
+
+        // data types --> string , number , objects (array,object,date function),boolean ,bigint, symbol
+
+        let login = true
+
+
+        function Hello() {
+            console.log('hello world Login')
+        }
+
+        function Hello2() {
+            console.log('hello world ')
+        }
+
+
+        login ? Hello() : Hello2()
+
+
+
+        function Change() {
+            box.style.left = '300px'
+            box.style.rotate = '40deg'
+        }
+
+
+
+
+
+    </script>
+
+</body>
+
+</html>
